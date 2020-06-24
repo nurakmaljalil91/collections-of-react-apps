@@ -1,15 +1,15 @@
 import React from 'react';
 import HelloWorld from './Components/HelloWorld'
 import Header from './Components/Header'
-import logo from './logo.svg';
-import './App.css';
+import Footer from './Components/Footer'
 
 function App() {
   return (
     <div>
-      <Header/>
+      <Header />
       <HelloWorld name='Sakura'/>
-      {/* <CounterExample /> */}
+
+      <Footer />
     </div>
   );
 }
