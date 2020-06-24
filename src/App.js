@@ -1,13 +1,15 @@
 import React from 'react';
 import HelloWorld from './Components/HelloWorld'
-import CounterExample from './Components/CounterExample'
+import Header from './Components/Header'
 import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div>
-      <HelloWorld />
+      <Header/>
+      <HelloWorld name='Sakura'/>
+      {/* <CounterExample /> */}
     </div>
   );
 }
